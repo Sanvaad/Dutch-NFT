@@ -123,5 +123,4 @@ contract DutchAuctionNFT is ERC721, IERC2981 {
         payable(owner).sendValue(address(this).balance);
     }
 
-    // Interface support
 }
