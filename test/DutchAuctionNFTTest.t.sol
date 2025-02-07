@@ -44,7 +44,7 @@ contract DutchAuctionNFTTest is Test {
         assertEq(amount, 0.05 ether); // 5% of 1 ETH
     }
 
-    // Add this to test/DutchAuctionNFT.t.sol
+
 
     function testMintBeforeAuctionStart() public {
         vm.warp(nft.startTime() - 1); // Set time before auction starts
